@@ -11,10 +11,10 @@ The students are required to do the following changes:
 5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
 
-The R script 'run_analysis.R' does the following:
+The R script `run_analysis.R` does the following:
 1. Download and unzip the dataset if files don't exist before
 2. Load the labels and wanted features(include mean or standard deviation).
 3. Load the data of both train and test with wanted features
 4. Combine the train and test dataset and rename the colnames
 5. Covert activites from num to readable characters
-6. Output a dataset called 'tidy.txt'
+6. Output a dataset called `tidy.txt`
